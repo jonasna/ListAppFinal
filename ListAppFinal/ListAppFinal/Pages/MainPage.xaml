@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ListAppFinal.Extensions;assembly=ListAppFinal"
+             xmlns:buttons="clr-namespace:Controls.Buttons;assembly=Controls"
+             x:Class="ListAppFinal.Pages.MainPage"
+             Title="{Binding Title}">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Bella er mega sød og dejlig" 
+           HorizontalOptions="Center"
+           VerticalOptions="Center" />
+
+        <buttons:ImageButton Source="{local:ImageResource Source=eye.png}" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="70" HeightRequest="70" CornerRadius="35" HasShadow="False"/>
+
+    </StackLayout>
+
+
+
+</ContentPage>
